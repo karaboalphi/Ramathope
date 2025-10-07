@@ -1,0 +1,248 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapogo Brass Band</title>
+  <style>
+    /* Reset & Base */
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Roboto', sans-serif; }
+    body { line-height:1.6; background-color:#28a745; color:#fff; scroll-behavior:smooth; }
+    a { text-decoration:none; color:inherit; }
+   
+    /* Header & Nav */
+    header { display:flex; justify-content:space-between; align-items:center; padding:15px 50px; background:#1e7e34; position:sticky; top:0; z-index:100; }
+    .logo { font-size:1.8rem; font-weight:bold; color:#ffd700; }
+    nav ul { list-style:none; display:flex; gap:20px; }
+    nav ul li a { color:#fff; font-weight:500; padding:5px 10px; transition:0.3s; }
+    nav ul li a:hover { border-bottom:2px solid #ffd700; }
+   
+    /* Hero */
+    .hero { display:flex; justify-content:center; align-items:center; height:80vh; text-align:center; position:relative; }
+    .hero::after { content:''; position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.3); }
+    .hero-text { position:relative; z-index:1; }
+    .hero h1 { font-size:3rem; margin-bottom:15px; color:#ffd700; }
+    .hero p { font-size:1.2rem; margin-bottom:20px; }
+    .btn { padding:10px 25px; background:#ffd700; color:#111; border-radius:5px; display:inline-block; transition:0.3s; }
+    .btn:hover { background:#e6c200; }
+
+    /* Sections */
+    section { padding:60px 50px; text-align:center; background-color:rgba(0,0,0,0.15); border-radius:10px; margin:20px auto; max-width:1200px; }
+    section h2 { font-size:2rem; margin-bottom:20px; color:#ffd700; }
+    section p { font-size:1rem; max-width:700px; margin:0 auto 20px auto; color:#f0f0f0; }
+
+    /* Members & Cards */
+    .member-cards, .service-cards, .blog-cards { display:flex; justify-content:center; gap:20px; flex-wrap:wrap; }
+    .member-cards .card, .service-cards .card, .blog-cards .card { background:rgba(0,0,0,0.2); padding:25px; border-radius:10px; width:250px; box-shadow:0 5px 15px rgba(0,0,0,0.1); transition:0.3s; }
+    .member-cards .card:hover, .service-cards .card:hover, .blog-cards .card:hover { transform:translateY(-5px); box-shadow:0 10px 20px rgba(0,0,0,0.2); }
+
+    /* Gallery */
+    .gallery-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px; }
+    .gallery-grid img { width:100%; border-radius:10px; transition:0.3s; cursor:pointer; }
+    .gallery-grid img:hover { transform:scale(1.05); }
+
+    /* Audio */
+    .audio-player { margin:20px auto; max-width:500px; text-align:center; }
+    .audio-player audio { width:100%; outline:none; border-radius:5px; }
+
+    /* Contact Form */
+    .contact-form { max-width:600px; margin:0 auto; text-align:left; }
+    .contact-form label { display:block; margin-bottom:5px; font-weight:500; color:#fff; }
+    .contact-form input, .contact-form textarea { width:100%; padding:10px; margin-bottom:15px; border-radius:5px; border:1px solid #ccc; font-size:1rem; }
+    .contact-form button { padding:10px 20px; background:#ffd700; border:none; border-radius:5px; font-weight:500; cursor:pointer; }
+    .contact-form button:hover { background:#e6c200; }
+
+    /* Footer */
+    footer { text-align:center; padding:20px; background:#1e7e34; color:#fff; }
+
+    /* WhatsApp */
+    .whatsapp-float { position:fixed; bottom:20px; right:20px; width:60px; height:60px; z-index:100; }
+    .whatsapp-float img { width:100%; height:100%; }
+
+    /* Responsive */
+    @media(max-width:992px){header{flex-direction:column;}}
+    @media(max-width:768px){.member-cards,.service-cards,.blog-cards{flex-direction:column;align-items:center;}}
+    @media(max-width:480px){.hero h1{font-size:2rem;}.hero p{font-size:1rem;}}
+  </style>
+</head>
+<body>
+   <marquee behavior="scroll" direction="RIGHT"> MAPOGO BRASS BAND ,,MBB .....FOR LIFE...........................................        MAPOGO A TAMAGA .....,,,</marquee>
+  <!-- Header -->
+  <header>
+    <div class="logo">Mapogo Brass Band</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#members">Members</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#audio">Audio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Mapogo Brass Band</h1>
+      <p>Celebrating music, culture, and rhythm</p>
+      <a href="#contact" class="btn">Book Us</a>
+      <img src=".png" alt="Gallery Image 4">
+    </div>
+  </section>
+
+<img src="karabo2.png" alt="Gallery Image 4">
+
+
+
+
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Mapogo Brass Band is one of South Africa's premier brass ensembles, performing at events and festivals across the country. Founded to preserve and promote the rich heritage of brass music, we bring energy, rhythm, and passion to every performance.</p>
+  </section>
+SS
+  <!-- Members -->
+  <section id="members">
+    <h2>Band Members</h2>
+    <div class="member-cards">
+     <img src="karabo.png" alt="BAND">
+      <div class="card"><h3>Master Sneger Mahlangu</h3><p>Band Leader / Conductor</p></div>
+      <div class="card"><h3>hlaka makhapela </h3><p>Trumpet</p></div> 
+      <div class="card"><h3> </h3><p>Trumpet</p></div>
+      <div class="card"><h3>                </h3><p>Trumpet</p></div>
+      <div class="card"><h3>Michael Maphatinae </h3><p>Trombone</p></div>
+ <div class="card"><h3></h3> Ramaano koketso<p>Trombone</p></div>
+ <div class="card"><h3></h3><p>Trombone</p></div>
+ <div class="card"><h3> </h3><p>Trombone</p></div>
+ <div class="card"><h3></h3><p>Trombone</p></div>
+      <div class="card"><h3>Ramaano karabo</h3><p>Tuba</p></div>
+      <div class="card"><h3>CHUENE</h3> <p> TUBA</p></div> 
+      <div class="card"><h3>MATOME </h3> <p>TUBA </p></div> 
+      <div class="card"><h3> thato</h3><p>snare drum </p></div> 
+      <div class="card"><h3> kgopotso</h3><p>snare drum</p></div> 
+      <div class="card"><h3> DREZZY</h3> <p>snare drum</p></div> 
+      <div class="card"><h3> MOKIBELO</h3><p>bass drum</p></div>      
+    </div>
+  </section>
+ 
+  <!-- Events -->
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <div class="blog-cards">
+      <div class="card"><h3>Festival of Brass</h3> <p>                </p></div>
+      <div class="card"><h3>Community Parade</h3><p>                  </p></div>
+      <div class="card"><h3>Music Gala</h3><p>                        </p></div>
+    </div>
+
+<img src="karabo3.png" alt="Gallery Image 4">
+<img src="karabo4.jpg" alt="Gallery Image 4">
+<img src="karabo2.jpg" alt="Gallery Image 4">
+<img src="karabo9.jpg" alt="Gallery Image 4">
+<img src="karabo7.jpg" alt="Gallery Image 4">
+
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="karabo3.png" alt="event">
+      <img src="karabo2.png" alt="Gallery Image 2">
+      <img src="DIPHALA.png" alt="Gallery Image 3">
+      <img src="karabo.png" alt="Gallery Image 4">
+    </div>
+  </section>
+
+  <!-- Audio -->
+  <section id="audio">
+    <h2>Our Music</h2>
+    <div class="audio-player">
+      <audio controls>
+        <source src="audio/song1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="audio-player">
+      <audio controls>
+        <source src="audio/song2.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </section>
+ <!-- Announcements -->
+    <section id="announcements" class="card" aria-labelledby="ann-head">
+      <h2 id="ann-head">bend Announcements</h2>
+
+      <!-- Static example announcements -->
+      <article class="announcement" aria-labelledby="a1">
+        <h3 id="a1">practice everyday from monday to friday. 15:00 to 17:00 -- </h3>
+        <p>Due to scheduled maintenance the bend will continue practicing at 12:00 and also 15:00.</p>
+        <p class="muted">Posted: 2025-10-5</p>
+      </artic>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact / Booking</h2>
+    <form class="contact-form" action="mailto:alpheuskarabo0@gmail.com" method="POST" enctype="text/plain">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>    <h2>Register</h2>
+    <form action="register.php" method="post">
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <button type="submit">Register</button>
+    </form>
+    <section class="hero">
+      <h2>Welcome to Mapogo brass band Portal</h2>
+      <p>Access your dashboard, check annoucement, and stay connected.</p>
+    </section><section class="login">
+  <h2>Login</h2>
+  <form action="login.php" method="POST">
+    <input type="email" name="email" placeholder="Enter Email" required>
+    <input type="password" name="password" placeholder="Enter Password" required>
+    <select name="role" required>
+      <option value="">-- Select Role --</option>
+      <option value="bend member">member</option>
+      <option value="bend leader">leader</option>
+    </select>
+    <button type="submit">Login</button>
+  </form>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mapogo Brass Band. All Rights Reserved.</p>
+  </footer>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/0673591537" class="whatsapp-float" target="_blank">
+    <img src="images/whatsapp-icon.png" alt="WhatsApp">
+  </a>
+
+</body>
+</html>
